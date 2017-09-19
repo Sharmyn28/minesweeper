@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: arial;
+  background: #81A4B9;
+  background-size: 120%;
+}
+
+header {
+  letter-spacing: 0.2em;
+  text-align: center;
+  margin: 20px auto;
+  color: whitesmoke;
+}
+
+.center{
+    width: 316px;
+    margin: 4% 35%;
+}
+.play {
+  width: 150px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+section {
+  width: 316px;
+  height: 360px;
+  background: whitesmoke;
+  margin: auto;
+
+}
+
+.head {
+  width: 316px;
+  height: 50px;
+  background: whitesmoke;
+  border-bottom: solid 2px #333;
+  padding: 5px;
+  text-align: center;
+}
+.flag {
+  display: box;
+  line-height: 40px;
+  width: 100px;
+  float: left;
+  margin-left: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+.smile {
+  display: box;
+  color: #f39c12;
+  margin-top: 2.5px;
+  text-align: center;
+  width: 316px;
+}
+
+.time {
+  display: box;
+  line-height: 40px;
+  width: 100px;
+  float: right;
+  margin-right: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+.body {
+  width: 316px;
+  height: 316px;
+  background: whitesmoke;
+  padding: 5px;
+}
+
+.box {
+  background: #2980b9;
+  background-size: 150%;
+  width: 10%;
+  height: 10%;
+  cursor: pointer;
+  text-align: center;
+  border: solid #3498db 1px;
+  color: #333;
+}
+
+.box:hover {
+  background: #3498db;
+}
+
+.box * {
+  display: none;
+}
+
+.flagged {
+  background: #e74c3c !important;
+  /*background-image: linear-gradient(to top left, #c0392b, #e74c3c , #9b59b6) !important;*/
+  background-size: 150%;
+}
